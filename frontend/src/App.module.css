@@ -1,0 +1,10 @@
+.app {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./images/wallpaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}

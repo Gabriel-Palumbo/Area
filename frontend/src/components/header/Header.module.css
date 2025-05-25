@@ -1,0 +1,24 @@
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.navLink {
+    margin: 0 1em;
+    text-decoration: none;
+    color: black;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    cursor: pointer;
+    color: whitesmoke;
+}

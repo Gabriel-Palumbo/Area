@@ -1,0 +1,8 @@
+.account {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("../../images/accountWallpaper.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: fixed;
+}

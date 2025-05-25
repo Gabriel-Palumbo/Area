@@ -1,0 +1,35 @@
+{
+  token: 'VJxDSmVo2zPEWwN7Cuf7bY9n',
+  team_id: 'T061KLTFCMR',
+  context_team_id: 'T061KLTFCMR',
+  context_enterprise_id: null,
+  api_app_id: 'A07MR2RS4LD',
+  event: {
+    text: '',
+    files: [ [Object] ],
+    upload: false,
+    user: 'U0628PE0VG8',
+    display_as_bot: false,
+    type: 'message',
+    ts: '1727184122.044539',
+    client_msg_id: 'e2ac8ed5-92d7-44d9-b93c-91f15c001460',
+    channel: 'C061YCZT7SM',
+    subtype: 'file_share',
+    event_ts: '1727184122.044539',
+    channel_type: 'channel'
+  },
+  type: 'event_callback',
+  event_id: 'Ev07PFT1SMJ4',
+  event_time: 1727184122,
+  authorizations: [
+    {
+      enterprise_id: null,
+      team_id: 'T061KLTFCMR',
+      user_id: 'U07MVCBS6JZ',
+      is_bot: true,
+      is_enterprise_install: false
+    }
+  ],
+  is_ext_shared_channel: false,
+  event_context: '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMDYxS0xURkNNUiIsImFpZCI6IkEwN01SMlJTNExEIiwiY2lkIjoiQzA2MVlDWlQ3U00ifQ'
+}

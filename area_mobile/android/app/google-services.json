@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "544176690050",
+    "project_id": "area-8b6d2",
+    "storage_bucket": "area-8b6d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544176690050:android:09a605319722e87534f59b",
+        "android_client_info": {
+          "package_name": "com.example.area_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9FKwoncTFAzUhqnkbBzeQ2NWGzlTWt_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

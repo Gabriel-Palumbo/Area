@@ -1,0 +1,33 @@
+{
+  token: 'VJxDSmVo2zPEWwN7Cuf7bY9n',
+  team_id: 'T061KLTFCMR',
+  context_team_id: 'T061KLTFCMR',
+  context_enterprise_id: null,
+  api_app_id: 'A07MR2RS4LD',
+  event: {
+    user: 'U0628PE0VG8',
+    type: 'message',
+    ts: '1727183783.443599',
+    client_msg_id: '06be5e2f-9d7b-4303-a0af-832df93c7343',
+    text: 'test',
+    team: 'T061KLTFCMR',
+    blocks: [ [Object] ],
+    channel: 'C061YCZT7SM',
+    event_ts: '1727183783.443599',
+    channel_type: 'channel'
+  },
+  type: 'event_callback',
+  event_id: 'Ev07PFS1PXKJ',
+  event_time: 1727183783,
+  authorizations: [
+    {
+      enterprise_id: null,
+      team_id: 'T061KLTFCMR',
+      user_id: 'U07MVCBS6JZ',
+      is_bot: true,
+      is_enterprise_install: false
+    }
+  ],
+  is_ext_shared_channel: false,
+  event_context: '4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMDYxS0xURkNNUiIsImFpZCI6IkEwN01SMlJTNExEIiwiY2lkIjoiQzA2MVlDWlQ3U00ifQ'
+}

@@ -1,0 +1,111 @@
+.newArea {
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+    background-color: #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.backArrow {
+    width: 35px;
+    height: 35px;
+    padding-right: 20px;
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.connected {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 150px;
+    color: #414141;
+}
+
+.connected_modules {
+    padding-left: 150px;
+    display: flex;
+    min-height: 30%;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.disconnected_modules {
+    padding-left: 150px;
+    display: flex;
+    min-height: 30%;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.disconnected {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 150px;
+    color: #414141;
+}
+
+
+
+.little_module {
+    width: 330px;
+    height: 90px;
+    background-color: #191919;
+    margin-right: 5em;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+.little_module:hover {
+    background-color: #292929;
+}
+
+.module_icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 2em;
+}
+
+.module_icon_check {
+    width: 15px;
+    height: 15px;
+    margin-left: 2em;
+}
+
+.see_areas {
+    cursor: pointer;
+    color: #414141;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.see_areas:hover {
+    text-decoration: underline;
+}
+

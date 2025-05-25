@@ -1,0 +1,100 @@
+.sync {
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.backButton {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.accountsSection {
+    margin-bottom: 2rem;
+}
+
+.accountsSection h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #888;
+}
+
+.accountsList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.accountItem {
+    display: flex;
+    align-items: center;
+    background-color: #1A1A1A;
+    padding: 1rem;
+    width: 250px;
+    border-radius: 8px;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.accountItem:hover {
+    background-color: #2A2A2A;
+}
+
+.accountItem img {
+    width: 24px;
+    height: 24px;
+}
+
+.accountItem span {
+    flex-grow: 1;
+}
+
+.statusButton {
+    background: none;
+    border: none;
+    color: #4CAF50;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+}
+
+.footer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.areasLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.areasLink:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .sync {
+        padding: 1rem;
+    }
+    
+    .header {
+        margin-bottom: 2rem;
+    }
+    
+    .accountItem {
+        padding: 0.8rem;
+    }
+}

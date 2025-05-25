@@ -1,0 +1,67 @@
+
+////////////////////////////
+//////////Flutter///////////
+////////////////////////////
+
+import 'package:flutter/material.dart';
+import 'dart:math';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final stopwatch = Stopwatch()..start();
+
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: Text('Flutter Benchmark')),
+        body: ListView.builder(
+          itemCount: 1000,
+          itemBuilder: (context, index) {
+            return ListTile(
+              title: Text('Item $index'),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+
+////////////////////////////
+////////React Native////////
+////////////////////////////
+
+import React, { useEffect } from 'react';
+import { FlatList, Text, View } from 'react-native';
+
+const App = () => {
+  useEffect(() => {
+    console.time('ReactNativeRender');
+  }, []);
+
+  const data = Array.from({ length: 1000 }, (_, index) => ({
+    key: `Item ${index}`,
+  }));
+
+  const renderItem = ({ item }) => <Text>{item.key}</Text>;
+
+  return (
+    <View>
+      <FlatList
+        data={data}
+        renderItem={renderItem}
+        keyExtractor={(item) => item.key}
+        onLayout={() => {
+          console.timeEnd('ReactNativeRender');
+        }}
+      />
+    </View>
+  );
+};
+
+export default App;

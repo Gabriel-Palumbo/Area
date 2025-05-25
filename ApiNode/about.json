@@ -1,0 +1,371 @@
+{
+  "services": [
+      {
+        "name": "googlemap",
+        "actions": [
+        ],
+        "reactions": [
+          {
+            "name": "get_travel_time",
+            "description": "Récupérer la distance entre vos 2 adresses selectionnées"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/google-map-logo.png?alt=media&token=18ecce21-a0b6-4a18-9f46-27637f6e83e1"
+      },
+      {
+        "name": "stocks",
+        "actions": [
+        ],
+        "reactions": [
+          {
+            "name": "get_apple_info",
+            "description": "Récupérer l'action d'apple"
+          },
+          {
+            "name": "get_google_info",
+            "description": "Récupérer l'action de google"
+          },
+          {
+            "name": "get_tesla_info",
+            "description": "Récupérer l'action de tesla"
+          },
+          {
+            "name": "get_gm_info",
+            "description": "Récupérer l'action de gm"
+          },
+          {
+            "name": "get_microsoft_info",
+            "description": "Récupérer l'action de microsoft"
+          },
+          {
+            "name": "get_facebook_info",
+            "description": "Récupérer l'action de facebook"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/stocks-logo.png?alt=media&token=e3a34df3-94ae-4f55-b92d-f4195540dff8"
+      },
+      {
+        "name": "quotes",
+        "actions": [
+        ],
+        "reactions": [
+          {
+            "name": "get_inspirational_quote",
+            "description": "Récupérer une sitation inspirante aléatoire"
+          },
+          {
+            "name": "get_health_quote",
+            "description": "Récupérer une sitation de vie aléatoire"
+          },
+          {
+            "name": "get_humor_quote",
+            "description": "Récupérer une sitation humoristique aléatoire"
+          },
+          {
+            "name": "get_business_quote",
+            "description": "Récupérer une sitation business aléatoire"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/quote-logo.png?alt=media&token=8c1aa0d0-03d9-4880-921a-4133a4496926"
+      },
+      {
+        "name": "football",
+        "actions": [
+        ],
+        "reactions": [
+          {
+            "name": "get_ligue1",
+            "description": "Récupérer le dernier match de la ligue1"
+          },
+          {
+            "name": "get_ligue2",
+            "description": "Récupérer le dernier match de la ligue2"
+          },
+          {
+            "name": "get_ligue3",
+            "description": "Récupérer le dernier match de la serieA"
+          },
+          {
+            "name": "get_ligue4",
+            "description": "Récupérer le dernier match de la PremierLeague"
+          },
+          {
+            "name": "get_ligue5",
+            "description": "Récupérer le dernier match de la LigueBBVA"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/sport-logo.png?alt=media&token=a6309859-3d3b-4b17-a667-fdafc83e0166"
+      },
+      {
+        "name": "time",
+        "actions": [
+        ],
+        "reactions": [
+          {
+            "name": "get_current_time",
+            "description": "Récupérer le temps dans la zone choisi"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/time-logo.png?alt=media&token=96e9de32-8d64-4b54-a3eb-92a72d4791b8"
+      },
+      {
+        "name": "weather",
+        "actions": [],
+        "reactions": [
+          {
+            "name": "get_current_weather",
+            "description": "Récupérer la météo du jour"
+          },
+          {
+            "name": "get_forecast",
+            "description": "Récupérer les prévisions météo des prochains 3 jours"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/weather-logo.png?alt=media&token=d7249d0a-8540-4e44-8c05-b61d945fba6f"
+      },
+      {
+        "name": "coincap",
+        "actions": [
+        ],
+        "reactions": [
+          {
+            "name": "get_bitcoin_price",
+            "description": "Récupérer le prix du Bitcoin"
+          },
+          {
+            "name": "get_ethereum_price",
+            "description": "Récupérer le prix de l'Ethereum"
+          },
+          {
+            "name": "get_solana_price",
+            "description": "Récupérer le prix du Solana"
+          },
+          {
+            "name": "get_tether_price",
+            "description": "Récupérer le prix du Tether"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/coinmarketcap.png?alt=media&token=8f63bb45-0a9b-4f0b-a50d-2b8207148e9d"
+      },
+      {
+        "name": "news",
+        "actions": [
+        ],
+        "reactions": [
+          {
+            "name": "get_environment_news",
+            "description": "Récupérer les news sur environment"
+          },
+          {
+            "name": "get_health_news",
+            "description": "Récupérer les news sur la santé"
+          },
+          {
+            "name": "get_technology_news",
+            "description": "Récupérer les news sur technologie"
+          },
+          {
+            "name": "get_sports_news",
+            "description": "Récupérer les news sur le sport"
+          },
+          {
+            "name": "get_finance_news",
+            "description": "Récupérer les news sur la finance"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/lemonde.png?alt=media&token=502506cd-ff38-4590-a568-da4db3518438"
+      },
+      {
+        "name": "telegram",
+        "actions": [
+          {
+            "name": "mention",
+            "description": "Nouveau message reçu"
+          },
+          {
+            "name": "file_upload",
+            "description": "Nouveau fichier reçu"
+          },
+          {
+            "name": "photo",
+            "description": "Nouvelle image reçue"
+          },
+          {
+            "name": "voice",
+            "description": "Nouveau message vocal reçu"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "send_message",
+            "description": "Envoyer un message."
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/telegram-logo%20(1).png?alt=media&token=07cacb50-119a-41c4-b784-dac10497b250"
+      },
+      {
+        "name": "discord",
+        "actions": [
+          {
+            "name": "mention",
+            "description": "Vous avez été mentionné dans un message"
+          },
+          {
+            "name": "mention_photo",
+            "description": "Nouvelle image reçue"
+          },
+          {
+            "name": "mention_voice",
+            "description": "Nouvelle mention"
+          },
+          {
+            "name": "mention_file_upload",
+            "description": "Nouveau fichier reçu"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "send_message",
+            "description": "Envoyer un message"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/discord-logo%20(1).png?alt=media&token=3b32ee41-93a5-4159-a0c5-d4d1067f26f5"
+      },
+      {
+        "name": "github",
+        "actions": [
+          {
+            "name": "push",
+            "description": "Nouveau push envoyé"
+          },
+          {
+            "name": "pull_request",
+            "description": "Nouvelle pull request reçu"
+          },
+          {
+            "name": "issues",
+            "description": "Nouvelle issue reçu"
+          },
+          {
+            "name": "issue_comment",
+            "description": "Nouveau commentaire sur une issue"
+          },
+          {
+            "name": "star",
+            "description": "Nouveau repo ajouté au favoris"
+          },
+          {
+            "name": "fork",
+            "description": "Nouveau fork sur votre projet"
+          },
+          {
+            "name": "create",
+            "description": "Nouvelle branche créée"
+          },
+          {
+            "name": "delete",
+            "description": "Une branche a été supprimée"
+          },
+          {
+            "name": "release",
+            "description": "Nouvelle release publiée sur le repo"
+          },
+          {
+            "name": "pull_request_review",
+            "description": "Nouvelle revision sur une Pull Request"
+          },
+          {
+            "name": "pull_request_review_comment",
+            "description": "Nouveau commentaire ajouté à une review de Pull Request"
+          },
+          {
+            "name": "repository",
+            "description": "Êvenement détecté dans les paramètres du projet"
+          }
+        ],        
+        "reactions": [
+          {
+            "name": "create_issue",
+            "description": "Créer une nouvelle issue"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/github-logo%20(1).png?alt=media&token=c918addc-ac1e-4a8f-a1bd-eb4c1c42b07d"
+      },
+      {
+        "name": "slack",
+        "actions": [
+          {
+            "name": "message",
+            "description": "Nouveau message reçu"
+          },
+          {
+            "name": "reaction_added",
+            "description": "Nouvelle réaction à un message"
+          },
+          {
+            "name": "file_share",
+            "description": "Nouveau fichier reçu"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "send_message",
+            "description": "Envoyer un message"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/slack-logo%20(1).png?alt=media&token=017b32a9-8cbc-4ffa-9319-270a1661858c"
+      },
+      {
+        "name": "spotify",
+        "actions": [
+          {
+            "name": "none",
+            "description": "No actions available."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "none",
+            "description": "No reactions available."
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/spotify-logo%20(1).png?alt=media&token=f41edbea-c022-4185-826e-a9b47bbccb00"
+      },
+      {
+        "name": "gmail",
+        "actions": [
+          {
+            "name": "recevoir un mail",
+            "description": "Nouvel email reçu"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "répondre",
+            "description": "Répondre à un email"
+          },
+          {
+            "name": "transférer",
+            "description": "Transférer un email"
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/google-logo%20(1).png?alt=media&token=1f0e7349-c6d0-4a75-9651-a9a4cc0de0dd"
+      },
+      {
+        "name": "shopify",
+        "actions": [
+          {
+            "name": "none",
+            "description": "No actions available."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "none",
+            "description": "No reactions available."
+          }
+        ],
+        "url": "https://firebasestorage.googleapis.com/v0/b/area-2-e77d3.appspot.com/o/shopify-logo%20(1).png?alt=media&token=0fdd4c11-96e5-4c90-9746-2711bfb27e5c"
+      }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  token: 'VJxDSmVo2zPEWwN7Cuf7bY9n',
+  team_id: 'T061KLTFCMR',
+  context_team_id: 'T061KLTFCMR',
+  context_enterprise_id: null,
+  api_app_id: 'A07MR2RS4LD',
+  event: {
+    type: 'reaction_added',
+    user: 'U0628PE0VG8',
+    reaction: 'white_check_mark',
+    item: {
+      type: 'message',
+      channel: 'C061YCZT7SM',
+      ts: '1727183424.712499'
+    },
+    item_user: 'U0628PE0VG8',
+    event_ts: '1727183633.000100'
+  },
+  type: 'event_callback',
+  event_id: 'Ev07NT2D3MBL',
+  event_time: 1727183633,
+  authorizations: [
+    {
+      enterprise_id: null,
+      team_id: 'T061KLTFCMR',
+      user_id: 'U07MVCBS6JZ',
+      is_bot: true,
+      is_enterprise_install: false
+    }
+  ],
+  is_ext_shared_channel: false,
+  event_context: '4-eyJldCI6InJlYWN0aW9uX2FkZGVkIiwidGlkIjoiVDA2MUtMVEZDTVIiLCJhaWQiOiJBMDdNUjJSUzRMRCIsImNpZCI6IkMwNjFZQ1pUN1NNIn0'
+}
